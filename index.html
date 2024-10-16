@@ -39,9 +39,9 @@
     <main>
 
       <section id="hero">
-        <div class="container-lg"> 
-          <div class="d-flex jusify-content-center align-items-center">
-            <div class="text-center">
+        <div class="container-lg pt-5"> 
+          <div class="row jusify-content-center align-items-center pt-5">
+            <div class="col-lg-8 offset-lg-2 text-center">
               <h1>Healthy, Delicious Meals Delivered to Your Door – Ready in Minutes!</h1>
               <p>With Daily Dish, you can enjoy chef-crafted, wholesome meals without the hassle of meal prep, grocery shopping, or cleanup.</p>
               <button class="btn btn-primary">Get Started Today and Save Time!</button>
@@ -52,7 +52,7 @@
 
       <section>
         <div class="container-lg text-center">
-          <h2>How it Works</h2>
+          <h2 class="pb-3">How it Works</h2>
           <p class="pb-5">Say goodbye to meal planning stress! With Daily Dish, you’ll enjoy chef-crafted meals made from fresh, natural ingredients, delivered right to your door—ready to cook in minutes.</p>
           <div class="row">
             <div class="col-sm-12 col-lg-4 pb-5">
@@ -114,8 +114,8 @@
       </section>
 
       <!-- need to figure out why background colour isnt working and mobile margins -->
-      <section class="bg-warning" id="reviews">
-        <div class="container-lg text-center">
+      <section class="bg-primary text" id="reviews">
+        <div class="container-lg text-center text-light">
           <div>
             <h2 class="pb-5">What Our Customers Are Saying</h2>
 
@@ -123,10 +123,10 @@
               <div class="col-sm-12 col-lg-4 pb-5">
                 <figure>
                   <img class="rounded-circle" src="images/sarah.jpg" alt="Profile picture of Sarah" width="100" height="100">
-                  <blockquote>
+                  <blockquote class="pt-3">
                     <p>"Daily Dish has completely changed how I eat during the week. The meals are so easy, and the flavors are incredible!"</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer text-light">
                     Sarah, Busy Professional
                   </figcaption>
                 </figure>
@@ -134,10 +134,10 @@
               <div class="col-sm-12 col-lg-4 pb-5">
                 <figure>
                   <img class="rounded-circle" src="images/tom.jpg" alt="Profile picture of Tom" width="100" height="100">
-                  <blockquote>
+                  <blockquote class="pt-3">
                     <p>"I love that I can adjust the menu to fit my family’s preferences. Daily Dish makes healthy eating simple for all of us."</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer text-light">
                     Tom, Father of Two
                   </figcaption>
                 </figure>
@@ -146,10 +146,10 @@
                 <!-- no padding on last one?  -->
                 <figure>
                   <img class="rounded-circle" src="images/julia.jpg" alt="Profile picture of Julia" width="100" height="100">
-                  <blockquote>
+                  <blockquote class="pt-3">
                     <p>"As someone who’s new to cooking, I was nervous at first but Daily Dish makes it so easy."</p>
                   </blockquote>
-                  <figcaption>
+                  <figcaption class="blockquote-footer text-light">
                     Julia, Novice Cook
                   </figcaption>
                 </figure>
@@ -163,9 +163,48 @@
 
 
       <section>
-        <div>
+        <div class="container-lg">
           <div>
-            <h2>Questions? We Have Answers</h2>
+            <h2 class="text-center pb-5">Questions? We Have Answers</h2>
+
+              <div class="accordion col-10 m-auto">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Can I pause or cancel my subscription?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Absolutely! You can pause, modify, or cancel your subscription at any time through your account dashboard.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How long do the meals last?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Our meals stay fresh in your fridge for up to 5 days. Each meal comes with a ‘best by’ date for optimal freshness.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Do you offer meals for specific diets?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Yes! We offer meals for a variety of diets, including vegetarian, keto, paleo, and gluten-free.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <!-- Include accordian component that best matches what is included in the provided screenshot.
 
@@ -192,10 +231,10 @@
 
 
       <section id="cta">
-        <div>
-          <div>
-            <h2>Join Thousands of Time-Savers – Start Eating Better Today!</h2>
-            <button>Sign Up and Get 30% Off Your First Week</button>
+        <div class="d-flex align-items-center">
+          <div class="container-lg text-light text-center">
+            <h2 class="pb-4">Join Thousands of Time-Savers – Start Eating Better Today!</h2>
+            <button class="btn btn-primary">Sign Up and Get 30% Off Your First Week</button>
           </div>
         </div>
       </section>
