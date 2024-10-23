@@ -5,6 +5,12 @@
   --bs-primary: #2e483a;
   --bs-primary-rgb: 46, 72, 58;
 
+  --bs-body-bg: #F6F3ED;
+  --bs-body-bg-rgb: 246, 243, 237;
+
+  --bs-light: #F6F3ED;
+  --bs-light-rgb: 246, 243, 237;
+
   /* --bg-primary: #2e483a;
   --bg-primary-rgb: rgb(46, 72, 58); */
 
